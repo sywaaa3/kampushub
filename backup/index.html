@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampus Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="heading">
+            <h1>Kampus Hub</h1>
+            <h2>Papan Pengumuman Universitas Wahidiyah</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Pengumuman</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Pengumuman Terbaru</h1>
+        <p>Cari judul: <input type="text" name="cari" id="cari" />
+          <input type="button" value="Cari" />
+        </p>
+        <article>
+            <h2>Administrasi Kampus</h2>
+            <p>Mulai 12 September 2026, loket administrasi akademik melayani pukul 08.00–15.00 WIB (Senin–Jumat).</p>
+        </article>
+        <article>
+            <h2>Akademik</h2>
+            <p>Perkuliahan semester ganjil 2026/2027 dimulai pada 15 September 2026. Pastikan semua mahasiswa telah melakukan registrasi.</p>
+        </article>
+        <article>
+            <h2>Layanan &amp; Fasilitas</h2>
+            <p>Jaringan WiFi di area Gedung Fakultas Teknik akan mengalami perbaikan pada 14 September 2026 pukul 09.00–12.00 WIB. Mohon maaf atas ketidaknyamanannya.</p>
+        </article>
+
+        <div class="mahasiswa-section">
+            <h2>Nilai Mahasiswa</h2>
+            <p class="search-box">
+                <label for="cariMahasiswa">Cari nama mahasiswa:</label><br>
+                <input type="text" id="cariMahasiswa" placeholder="Ketik nama mahasiswa..." autocomplete="off" />
+            </p>
+            <ul id="hasilPencarian"></ul>
+            <div id="detailMahasiswa" class="detail-card" style="display:none;"></div>
+        </div>
+
+        <h2>Tentang Kami</h2>
+        <p>Kampus Hub adalah platform pengumuman resmi Universitas Wahidiyah yang menyediakan informasi terbaru bagi mahasiswa dan staf.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kampus Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
