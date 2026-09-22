@@ -155,3 +155,25 @@ footer {
   padding: 14px;
   color: #666;
 }
+.app {
+  max-width: 480px;
+  margin: 3rem auto;
+  padding: 1.5rem 2rem;
+  font-family: system-ui, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.app h1 {
+  margin-bottom: 0.25rem;
+}
+
+.app ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+}
