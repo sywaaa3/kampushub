@@ -4,7 +4,6 @@ import "./App.css";
 import { dataMahasiswa, dataPengumuman } from "./data";
 import type { Mahasiswa } from "./data";
 
-// ---------- Komponen Header ----------
 function Header() {
   return (
     <header>
@@ -23,7 +22,6 @@ function Header() {
   );
 }
 
-// ---------- Komponen Pengumuman ----------
 function Pengumuman() {
   const [judul, setJudul] = useState("");
 
@@ -64,7 +62,6 @@ function Pengumuman() {
   );
 }
 
-// ---------- Komponen Nilai Mahasiswa ----------
 function CariMahasiswa() {
   const [kataKunci, setKataKunci] = useState("");
   const [terpilih, setTerpilih] = useState<Mahasiswa | null>(null);
@@ -127,7 +124,6 @@ function CariMahasiswa() {
   );
 }
 
-// ---------- Komponen Footer ----------
 function Footer() {
   return (
     <footer>
@@ -136,7 +132,6 @@ function Footer() {
   );
 }
 
-// ---------- Komponen utama ----------
 export default function App() {
   return (
     <>
